@@ -1,0 +1,471 @@
+
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 7%;
+
+    
+}
+
+.container-kiri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    height: 385px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.garis{
+    width: 20%;
+    height: 3px;
+    margin-bottom: 20px;
+    background-color: red;
+}
+
+.formlog{
+    width: 50%;
+}
+
+.input-login{
+    margin-top: 10px;
+    background-color: white;
+    border: 2px solid grey;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px 6px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.remember{
+    font-weight: lighter;
+}
+
+.forget{
+    float: right;
+    font-weight: lighter;
+}
+
+.loginbtn{
+    background-color: #ff0000;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 25%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    transition: .5s;
+}
+
+.loginbtn:hover{
+    width: 300px;
+    margin-left: 14%;
+}
+
+.container-kanan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: red;
+    height: 385px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-sizing: border-box;
+    border-left: 1px solid rgb(215, 0, 0);
+}
+
+.hello{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0;
+    position: relative;
+    bottom: 25px;
+    color: white;
+}
+
+.garis-kanan{
+    width: 25%;
+    height: 3px;
+    position: relative;
+    bottom: 25px;
+    background-color: white;
+}
+
+.textakun{
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    position: relative;
+    bottom: 25px;
+}
+
+.daftar{
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    position: relative;
+    bottom: 35px;
+}
+
+.isiform{
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+
+.btnregis{
+    border: 1px solid black;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 2%;
+    position: relative;
+    bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    transition: .4s;
+}
+
+.btnregis:hover{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+#register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.kotak{
+    background-color: #f1f1f1;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.titleregis{
+    font-size: 40px;
+}
+
+.icon{
+    display: flex;
+    gap: 7px;
+}
+
+#usersalah{
+    font-weight: lighter;
+    color: red;
+    display: none;
+}
+
+#passwordsalah{
+    font-weight: lighter;
+    color: red;
+    display: none;
+}
+
+#register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    display: none;  
+    height: 68vh;
+}
+
+.containerreg{
+    background-color: #f1f1f1;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 30%;
+    position: relative;
+    bottom: 50px;
+}
+
+.tilreg{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 40px;
+}
+
+.garisreg{
+    width: 15%;
+    height: 3px;
+    margin-bottom: 20px;
+    background-color: red;
+    position: relative;
+    bottom: 40px;
+}
+
+.formreg{
+    width: 70%;
+}
+
+.input-reg{
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: white;
+    width: 100%;
+    padding: 8px 6px;
+    height: 35px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 40px;
+}
+.haveakun{
+    font-weight: lighter;
+    color: red;
+    position: relative;
+    bottom: 35px;
+}
+
+.btnreg{
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    background:-webkit-gradient(linear, left top, right top, color-stop(50%, #fff), color-stop(50%, #000));
+   background:-webkit-linear-gradient(left, red 50%, rgb(214, 0, 0) 50%);
+   background:-moz-linear-gradient(left, red 50%, rgb(214, 0, 0) 50%);
+   background:linear-gradient(to right, red 50%, rgb(214, 0, 0) 50%);
+   background-size:200% 100%;
+   background-position:0 0;
+   -webkit-transition:background-position .5s ease-out;
+   -moz-transition:background-position .5s ease-out;
+   transition:background-position .4s ease-out;
+}
+
+.btnreg:hover{
+    background-position:-100% 0;
+}
+
+#fillname{
+    position: absolute;
+    bottom: 30%;
+    color: red;
+    display: none;
+}
+
+#sudah{
+    position: absolute;
+    bottom: 30%;
+    color: red;
+    display: none;
+}
+
+#container-warna{
+
+}
+
+#body-game{
+    background: url(clouds.png);
+    overflow: hidden;
+}
+
+#body-login{
+    background: url(bg-mario.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+#form-warna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1f1f1f1;
+    border-radius: 20px;
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    margin-top: 0%;
+}
+
+#title-game{
+    margin: 20px auto 10px;
+    margin-left: 43%;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+#warna-kotaks{
+    position: relative;
+    bottom: 170px;
+    right: 20%;
+}
+
+.choose{
+    position: relative;
+    top: 25px;
+    right: 11%;
+    font-size: 20px;
+
+}
+#choosec{
+    position: relative;
+    top: 0px;
+    left: 7%;
+    font-size: 20px;
+}
+
+
+
+.logoust{
+    position: relative;
+    top: 105px;
+    right: 150px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: #ff0000;
+}
+
+#startg{
+    position: relative;
+    top: 80px;
+    left: 160px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: #ff0000;  
+}
+
+#container-game{
+    width: 100%;
+    height: 95vh;
+    
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mario{
+    color: white;
+}
+
+#games{
+    width: 80%;
+    width: 50vh;
+    background-color: #f1f1f1f1;
+}
+
+canvas{
+    background-color: #f1f1f1f1;
+    opacity: .9;
+    border: 1px solid black;
+    position: absolute;
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#usernamegames{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 13%;
+    top: 15%;
+}
+
+#btn-2{
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 40%;
+    top: 82%;
+    display: none;
+
+}
+
+#btn-23{
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 82%;
+    width: 80px;
+    display: none;
+}
+
+#usernamewarna{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 39%;
+    top: 20%;
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.develo{
+    font-weight: lighter;
+    color: grey;
+}
